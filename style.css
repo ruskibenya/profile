@@ -1,0 +1,127 @@
+/* Body
+Pick a nice
+`background-color`,
+`font-family`,
+`color`,
+`font-size`
+and `line-height` for the `<body>`.
+*/
+
+body {
+  background-color: ##F4F4F4;
+  color: #56351E;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 17px;
+  line-height: normal;
+  text-align: center;
+}
+
+/*Headers
+
+- Choose a nice `color` and `font-family` for headers (`<h1>`, `<h2>`, `<h3>`)
+- Choose harmonious `font-size` and `line-height` for headers
+- Hint: **small headers** are more elegant.
+If you check out any website (Medium, Airbnb, etc.), you'll see that the `font-size` of their headers is quite small.
+*/
+h1{
+  color: #2660A4;
+  line-height: 100%;
+  font-size: 35px;
+  margin-bottom: 2px;
+}
+h2{
+  color: #0F0303;
+  line-height: 50%;
+  font-size: 20px;
+  margin-top: 0px;
+}
+h3{
+  color: #591414;
+  line-height: 90%;
+  font-size: 60px;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.header{
+  font-family: 'Anton', sans-serif;
+}
+
+
+/* ### Links
+
+- Change the `color` & `text-decoration` of all the links
+- Add hover effects to links using the pseudo-class `a:hover`.
+*/
+#gallery_title{
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  }
+
+li{
+  display: inline-block;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #5B5A50;
+}
+a:hover{
+  color: #FFFBE0;
+  line-height: 200%;
+  background-color: blue;
+
+}
+
+.card{
+  background-color: #F2F2E3;
+  margin: 20px 5%;
+  border-radius: 2%;
+
+}
+
+#avatar{
+  border-radius: 25%;
+  margin-top: 15px;
+}
+
+#john_hodgman{
+  background-image: url("images/john.jpg");
+  height: 500px;
+}
+
+#quote{
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  color: #A32525;
+  background-color: #FFFBE0;
+  opacity: 0.5;
+  padding-bottom: 281px;
+
+}
+
+.art{
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.origin{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.description{
+  text-align: justify;
+}
